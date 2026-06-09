@@ -38,7 +38,8 @@ SHEETS = [
     "2026 FEBRUARY",
     "2026 MARCH",
     "2026 APRIL",
-    "2026 MAY"
+    "2026 MAY",
+    "2026 JUNE"
 ]
 
 # Function to fetch data from Google Sheets for a specific sheet
