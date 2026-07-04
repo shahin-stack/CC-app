@@ -12,7 +12,7 @@ import time
 st.set_page_config(page_title="Warranty Conversion Dashboard", layout="wide", initial_sidebar_state="expanded")
 
 # --- Google Sheets Integration Configuration ---
-APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwfzAczKNqeLJNYdZi7dfFv6ZHWhLNPOxhLSCyfprNZTStpTXPXoENVG5kEyPuEaYCg3w/exec"  # Replace with your Apps Script web app URL
+APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzwiTwiaH0pdDXjkeMP7MH70nNw-jgCffQCY4Awn5c5A8I4sF16IwMk_aqznVQVbue72A/exec"  # Replace with your Apps Script web app URL
 
 # Configure requests with retry logic
 session = requests.Session()
@@ -39,7 +39,8 @@ SHEETS = [
     "2026 MARCH",
     "2026 APRIL",
     "2026 MAY",
-    "2026 JUNE"
+    "2026 JUNE",
+    "2026 JULY"
 ]
 
 # Function to fetch data from Google Sheets for a specific sheet
