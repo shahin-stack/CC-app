@@ -26,7 +26,7 @@ session = requests.Session()
 retries = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
 session.mount('https', HTTPAdapter(max_retries=retries))
 
-# Sheets in the OLD spreadsheet (Dec 2024 – Jun 2026)
+# Sheets in the OLD spreadsheet (Dec 2024 – Jul 2026)
 SHEETS_OLD = [
     "2024 December",
     "2025 JAN",
@@ -47,13 +47,13 @@ SHEETS_OLD = [
     "2026 APRIL",
     "2026 MAY",
     "2026 JUNE",
+    "2026 JULY",  # July 2026 data exists in the old spreadsheet
 ]
 
-# Sheets in the NEW spreadsheet (Jul 2026 onwards)
+# Sheets in the NEW spreadsheet (Aug 2026 onwards)
 # Add new months here as you create them in the new Google Sheet
 SHEETS_NEW = [
-    "2026 JULY",
-     "2026 AUGUST",   # uncomment when you add the tab in the new sheet
+    "2026 AUGUST",
     # "2026 SEPTEMBER",
     # "2026 OCTOBER",
     # "2026 NOVEMBER",
