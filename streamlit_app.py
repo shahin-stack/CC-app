@@ -50,10 +50,10 @@ SHEETS_OLD = [
 ]
 
 # Sheets in the NEW spreadsheet (Jul 2026 onwards)
-# Add new months here as you create them in the new Google Sheet
+# Add new months here ONLY after creating the tab in the new Google Sheet
 SHEETS_NEW = [
-    "2026 JULY",      # New sheet starts here - old sheet was full
-    "2026 AUGUST",
+    "2026 JULY",        # Make sure this tab exists in the new Google Sheet!
+    # "2026 AUGUST",    # Uncomment AFTER creating this tab in the new sheet
     # "2026 SEPTEMBER",
     # "2026 OCTOBER",
     # "2026 NOVEMBER",
